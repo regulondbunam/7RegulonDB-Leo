@@ -1,0 +1,103 @@
+{
+    "classAcronym": "ECOLI",
+    "collectionName": "pswm",
+    "organism": "ECOLI",
+    "subClassAcronym": "MXC",
+    "collectionData": [
+        {
+            "_id": "[<TranscriptionFactors: TranscriptionFactors object>]",
+            "name": "AcrRMatrix",
+            "transcriptionFactor_id": "[<TranscriptionFactors: TranscriptionFactors object>]",
+            "metadata_id": "Id_Temporal",
+            "matrix": {
+                "parameters": "",
+                "data": "A\t0\t3\t1\t4\t0\t2\t1\t5\t1\t0\t0\t0\t3\t0\nC\t2\t0\t4\t0\t0\t0\t4\t0\t1\t1\t0\t1\t0\t1\nG\t1\t0\t0\t1\t0\t0\t0\t0\t0\t0\t1\t4\t0\t4\nT\t2\t2\t0\t0\t5\t3\t0\t0\t3\t4\t4\t0\t2\t0>site_0\nTACATACATTTGTG\n>site_1\nTTCATTCATTTGAC\n>site_2\nGTCATTCATTTCTG\n>site_3\nCACATACAACGGAG\n>site_4\nCAAGTTAACTTGAG\nmatrix-quality  -v 1 -ms /home/cjgonzal/data/Matrices_NR/AcrR/AcrR.EcolK12_2nt_upstream.14.meme -matrix_format meme -seq allup-noorf /home/cjgonzal/data/sequences/allup/Escherichia_coli_K12_allup-noorf_min30_max500.fasta -perm allup-noorf 10 -roc_ref theor -img_format png,pdf -graph_option '-title1 AcrR' -graph_option '-xgstep1 5 -xgstep2 1' -graph_option '-ymin 1.0e-7 -ymax 1' -graph_option '-xmin -50 -xmax 30' -roc_option '-gstep1 0.1 -gstep2 0.05' -roc_option '-title1 AcrR' -2str -pseudo 1 -bgfile $RSAT/public_html/data/genomes/Escherichia_coli_GCF_000005845.2_ASM584v2/oligo-frequencies/2nt_upstream-noorf_Escherichia_coli_GCF_000005845.2_ASM584v2-ovlp-1str.freq.gz -th_prior $RSAT/public_html/data/genomes/Escherichia_coli_GCF_000005845.2_ASM584v2/oligo-frequencies/2nt_upstream-noorf_Escherichia_coli_GCF_000005845.2_ASM584v2-ovlp-1str.freq.gz -o /home/cjgonzal/results/manual/matrix_quality_20190329/AcrR/AcrR.EcolK12_2nt_upstream.14.meme/AcrR.EcolK12_2nt_upstream.14.meme_quality"
+            },
+            "logoPath": "",
+            "htmlFilePath": "/home/ana/html/AcrR/AcrR.EcolK12_2nt_upstream.14.meme/BWCATWCATTTGWG/AcrR.EcolK12_2nt_upstream.14.meme_quality_synthesis.html",
+            "citations": [
+                {
+                    "publications_id": "",
+                    "evidences_id": ""
+                }
+            ],
+            "notes": ""
+        },
+        {
+            "_id": "[<TranscriptionFactors: TranscriptionFactors object>]",
+            "name": "ArgPMatrix",
+            "transcriptionFactor_id": "[<TranscriptionFactors: TranscriptionFactors object>]",
+            "metadata_id": "Id_Temporal",
+            "matrix": {
+                "parameters": "",
+                "data": "A\t15\t2\t4\t3\t3\t2\t4\t2\t7\t4\t14\t4\t2\t4\t3\t0\t9\t11\t3\nC\t1\t1\t0\t3\t1\t9\t2\t1\t0\t7\t2\t0\t1\t4\t5\t3\t8\t5\t3\nG\t0\t3\t0\t1\t5\t3\t3\t9\t0\t3\t2\t2\t10\t7\t5\t6\t1\t3\t1\nT\t3\t13\t15\t12\t10\t5\t10\t7\t12\t5\t1\t13\t6\t4\t6\t10\t1\t0\t12>site_0\nATTTGCTTTCCTGGGTCAT\n>site_1\nATTTTGTGTCAGGTTGCAT\n>site_2\nATTTTCCAATATGCGGCGT\n>site_3\nATTAGCGGAAATTGATAAT\n>site_4\nAGTTTTTCTGATTGCCAAT\n>site_5\nAGATTATGTGATGACTCGT\n>site_6\nAATTTTTGTCTATGGTCAT\n>site_7\nTTTATCATTAATTTCTAAT\n>site_8\nATTTGGTTATGAGATTACT\n>site_9\nCTATTCGGTTATTGTTAAA\n>site_10\nATTCGCTTATATATTGACC\n>site_11\nAAATTGTGTCATAGTGCAG\n>site_12\nATTTCTTGAACGGCATAAT\n>site_13\nTTTTGCAATCATTAGCAAA\n>site_14\nTTTCACTGATATCCCTCCC\n>site_15\nACTTTTGTTCGAGTGGAGT\n>site_16\nATTGATATAGATGGCTTAT\n>site_17\nATTATAAGTAAAGCAGCCA\n>site_18\nAGACACCTTCATGATCGCC\nmatrix-quality  -v 1 -ms /home/cjgonzal/data/Matrices_NR/ArgP/ArgP.EcolK12_1nt_upstream.19.meme -matrix_format meme -seq allup-noorf /home/cjgonzal/data/sequences/allup/Escherichia_coli_K12_allup-noorf_min30_max500.fasta -perm allup-noorf 10 -roc_ref theor -img_format png,pdf -graph_option '-title1 ArgP' -graph_option '-xgstep1 5 -xgstep2 1' -graph_option '-ymin 1.0e-7 -ymax 1' -graph_option '-xmin -50 -xmax 30' -roc_option '-gstep1 0.1 -gstep2 0.05' -roc_option '-title1 ArgP' -2str -pseudo 1 -bgfile $RSAT/public_html/data/genomes/Escherichia_coli_GCF_000005845.2_ASM584v2/oligo-frequencies/1nt_upstream-noorf_Escherichia_coli_GCF_000005845.2_ASM584v2-ovlp-1str.freq.gz -th_prior $RSAT/public_html/data/genomes/Escherichia_coli_GCF_000005845.2_ASM584v2/oligo-frequencies/1nt_upstream-noorf_Escherichia_coli_GCF_000005845.2_ASM584v2-ovlp-1str.freq.gz -o /home/cjgonzal/results/manual/matrix_quality_20190329/ArgP/ArgP.EcolK12_1nt_upstream.19.meme/ArgP.EcolK12_1nt_upstream.19.meme_quality"
+            },
+            "logoPath": "",
+            "htmlFilePath": "/home/ana/html/ArgP/ArgP.EcolK12_1nt_upstream.19.meme/ATTTKYTKWHATKNNKMAT/ArgP.EcolK12_1nt_upstream.19.meme_quality_synthesis.html",
+            "citations": [
+                {
+                    "publications_id": "",
+                    "evidences_id": ""
+                }
+            ],
+            "notes": ""
+        },
+        {
+            "_id": "[<TranscriptionFactors: TranscriptionFactors object>]",
+            "name": "ArcAMatrix",
+            "transcriptionFactor_id": "[<TranscriptionFactors: TranscriptionFactors object>]",
+            "metadata_id": "Id_Temporal",
+            "matrix": {
+                "parameters": "",
+                "data": "A\t36\t50\t22\t43\t31\t34\t14\t20\t36\t15\t12\t69\t70\t6\t46\t41\t38\nC\t7\t6\t38\t10\t14\t4\t4\t11\t5\t2\t9\t5\t0\t64\t10\t12\t11\nG\t5\t10\t6\t10\t1\t11\t4\t14\t22\t4\t3\t0\t4\t0\t5\t4\t9\nT\t31\t13\t13\t16\t33\t30\t57\t34\t16\t58\t55\t5\t5\t9\t18\t22\t21>site_0\nTACAAATCATTAACAAA\n>site_1\nAACAATTATTTAACAAA\n>site_2\nTAAAAATTGTTAACAAT\n>site_3\nAACATTTAGTTAACTTA\n>site_4\nAACATTTAGTTAACCAT\n>site_5\nTACGCTTTATTAACAAT\n>site_6\nTGCATATTTTTAACACA\n>site_7\nAACATAATATTAACTCA\n>site_8\nTGCTTTTTATTAACATA\n>site_9\nAACAATTGGTTAATAAA\n>site_10\nATCATTTAATTAACTAT\n>site_11\nAAAACTTGATTAACATC\n>site_12\nAACGATTTGATAACAAC\n>site_13\nAACAAGTGGTTCACAAA\n>site_14\nAACATTTTGTTAGCACT\n>site_15\nGAAACATGATTAACATA\n>site_16\nAGCTCTTAATTAACAAC\n>site_17\nTGCAAATCGATAACAAC\n>site_18\nAAAATATAATGAACAAT\n>site_19\nTACATAATATCAACACC\n>site_20\nTAATTATTATTAACCTC\n>site_21\nAACAATTATTTTACATA\n>site_22\nTTATTTTTGTTAACATT\n>site_23\nTACATAAATTTAACCAG\n>site_24\nATTATATTGTAAACATA\n>site_25\nAATACATTGTTAATTAA\n>site_26\nAACATGTTAATAAAAAC\n>site_27\nAATTATAAGTTAACTAA\n>site_28\nATATTATAATTAACTCA\n>site_29\nTAATTTTGATTAATAAT\n>site_30\nAATATTTGATTATCCAA\n>site_31\nCACCTAAGATTAACTTA\n>site_32\nTACATCAATTTAACATT\n>site_33\nATCAAATTCGTAACAAT\n>site_34\nAACCATTTTTTTACATT\n>site_35\nTAACTGTCAATAACACA\n>site_36\nTGAAAATGATTATCAAT\n>site_37\nCACGTTTTTATAACCAT\n>site_38\nTTCACATCATTAACCGT\n>site_39\nTAACTATAATGAACCAA\n>site_40\nTAATGGTTATTAACATA\n>site_41\nACTTTATAATTAACAGA\n>site_42\nTTATATTGATAAACTAA\n>site_43\nTACTATTTAAAATCAAA\n>site_44\nATCCTGTAATTAAAACA\n>site_45\nATAAATTAATTAAAATG\n>site_46\nAAAACTTCGTTAATTCG\n>site_47\nCACATTTTGACAAAACA\n>site_48\nGACGAGATACTAACAAA\n>site_49\nAACATACTTGCAACATT\n>site_50\nAACAAAGTTGTTACAAA\n>site_51\nCACAAACGGTTAATTAT\n>site_52\nTTAGTGTAATTAATTAA\n>site_53\nTTTAATAGATAAACACC\n>site_54\nCGGAAATATTTAACTTG\n>site_55\nGTCAAAATTTAAACTAC\n>site_56\nCACAAAATCATTACAAT\n>site_57\nCTGATATTTATAGCAAA\n>site_58\nTATAAATTGATCACCGT\n>site_59\nAACAAATCATTTAAGTT\n>site_60\nTGTTTTACATCAACTTA\n>site_61\nTAAATATCGGTAATTTG\n>site_62\nTATTCACCGAAAACAAA\n>site_63\nGGGCAATTTTTAACGTA\n>site_64\nACCGTTTAGTCCACTTT\n>site_65\nAGACATTGTTACACAAC\n>site_66\nTCACCTTTCTCAACGAA\n>site_67\nTCTGTGTAATAAATAAA\n>site_68\nAAAACAATAAAATCCAT\n>site_69\nAAAGCAACATAAAAAAG\n>site_70\nTCCATTTTTATCGCTAA\n>site_71\nAATACGCCGTTAATGAA\n>site_72\nAAGGAGTTGTGATCAAG\n>site_73\nTATCCCTACACAACACA\n>site_74\nACCGAGGTCACAACATA\n>site_75\nAGGTCCAGATTAACAGG\n>site_76\nGAATAAGTGTAAACGCG\n>site_77\nTATCACGTTTCAACTTC\n>site_78\nTAGTATTGACAAGCCAA\nmatrix-quality  -v 1 -ms /home/cjgonzal/data/Matrices_NR/ArcA/ArcA.EcolK12_1nt_upstream.17.meme -matrix_format meme -seq allup-noorf /home/cjgonzal/data/sequences/allup/Escherichia_coli_K12_allup-noorf_min30_max500.fasta -perm allup-noorf 10 -roc_ref theor -img_format png,pdf -graph_option '-title1 ArcA' -graph_option '-xgstep1 5 -xgstep2 1' -graph_option '-ymin 1.0e-7 -ymax 1' -graph_option '-xmin -50 -xmax 30' -roc_option '-gstep1 0.1 -gstep2 0.05' -roc_option '-title1 ArcA' -2str -pseudo 1 -bgfile $RSAT/public_html/data/genomes/Escherichia_coli_GCF_000005845.2_ASM584v2/oligo-frequencies/1nt_upstream-noorf_Escherichia_coli_GCF_000005845.2_ASM584v2-ovlp-1str.freq.gz -th_prior $RSAT/public_html/data/genomes/Escherichia_coli_GCF_000005845.2_ASM584v2/oligo-frequencies/1nt_upstream-noorf_Escherichia_coli_GCF_000005845.2_ASM584v2-ovlp-1str.freq.gz -o /home/cjgonzal/results/manual/matrix_quality_20190329/ArcA/ArcA.EcolK12_1nt_upstream.17.meme/ArcA.EcolK12_1nt_upstream.17.meme_quality"
+            },
+            "logoPath": "",
+            "htmlFilePath": "/home/ana/html/ArcA/ArcA.EcolK12_1nt_upstream.17.meme/WAMAWWTWRTTAACAWW/ArcA.EcolK12_1nt_upstream.17.meme_quality_synthesis.html",
+            "citations": [
+                {
+                    "publications_id": "",
+                    "evidences_id": ""
+                }
+            ],
+            "notes": ""
+        },
+        {
+            "_id": "[<TranscriptionFactors: TranscriptionFactors object>]",
+            "name": "AraCMatrix",
+            "transcriptionFactor_id": "[<TranscriptionFactors: TranscriptionFactors object>]",
+            "metadata_id": "Id_Temporal",
+            "matrix": {
+                "parameters": "",
+                "data": "A\t4\t7\t1\t11\t3\t2\t6\t5\t5\t9\t6\t8\t6\t2\t3\t2\t12\t0\t11\t9\nC\t6\t2\t7\t0\t0\t8\t5\t1\t0\t0\t0\t3\t3\t1\t9\t12\t2\t1\t1\t1\nG\t1\t3\t2\t2\t11\t1\t3\t6\t8\t1\t1\t1\t5\t1\t3\t0\t0\t0\t2\t0\nT\t4\t3\t5\t2\t1\t4\t1\t3\t2\t5\t8\t3\t1\t11\t0\t1\t1\t14\t1\t5>site_0\nCACAGCAGATTAATCCATAA\n>site_1\nCGCAGCAATTTAATCCATAT\n>site_2\nTACAGTGAGAACGTGCATAA\n>site_3\nCATAGCATTTTTATCCATAA\n>site_4\nCACGGCAGAAAAGTCCACAT\n>site_5\nTTTAGCGGGAAAAGACATAA\n>site_6\nTTCAGCAGGATAATGAATAC\n>site_7\nAGCAGTGTGAAATAACATAA\n>site_8\nAAGAAACCAATTGTCCATAT\n>site_9\nCGTAACAAAAGTGTCTATAA\n>site_10\nATTAGCCTGGAAATCCTTGT\n>site_11\nTCAGGTCGGAAACAGCATAA\n>site_12\nGATTAGCGGATCCTACCTGA\n>site_13\nAAGAGATAATTCGCCCCTCT\n>site_14\nCCCTTTCAGTTGCTCAATTA\nmatrix-quality  -v 1 -ms /home/cjgonzal/data/Matrices_NR/AraC/AraC.EcolK12_1nt_upstream.20.meme -matrix_format meme -seq allup-noorf /home/cjgonzal/data/sequences/allup/Escherichia_coli_K12_allup-noorf_min30_max500.fasta -perm allup-noorf 10 -roc_ref theor -img_format png,pdf -graph_option '-title1 AraC' -graph_option '-xgstep1 5 -xgstep2 1' -graph_option '-ymin 1.0e-7 -ymax 1' -graph_option '-xmin -50 -xmax 30' -roc_option '-gstep1 0.1 -gstep2 0.05' -roc_option '-title1 AraC' -2str -pseudo 1 -bgfile $RSAT/public_html/data/genomes/Escherichia_coli_GCF_000005845.2_ASM584v2/oligo-frequencies/1nt_upstream-noorf_Escherichia_coli_GCF_000005845.2_ASM584v2-ovlp-1str.freq.gz -th_prior $RSAT/public_html/data/genomes/Escherichia_coli_GCF_000005845.2_ASM584v2/oligo-frequencies/1nt_upstream-noorf_Escherichia_coli_GCF_000005845.2_ASM584v2-ovlp-1str.freq.gz -o /home/cjgonzal/results/manual/matrix_quality_20190329/AraC/AraC.EcolK12_1nt_upstream.20.meme/AraC.EcolK12_1nt_upstream.20.meme_quality"
+            },
+            "logoPath": "",
+            "htmlFilePath": "/home/ana/html/AraC/AraC.EcolK12_1nt_upstream.20.meme/HAYAGYVDRWWAVTCCATAW/AraC.EcolK12_1nt_upstream.20.meme_quality_synthesis.html",
+            "citations": [
+                {
+                    "publications_id": "",
+                    "evidences_id": ""
+                }
+            ],
+            "notes": ""
+        },
+        {
+            "_id": "[<TranscriptionFactors: TranscriptionFactors object>]",
+            "name": "AgaRMatrix",
+            "transcriptionFactor_id": "[<TranscriptionFactors: TranscriptionFactors object>]",
+            "metadata_id": "Id_Temporal",
+            "matrix": {
+                "parameters": "",
+                "data": "A\t5\t5\t1\t0\t0\t0\t0\t3\t2\t0\t1\t2\t5\t0\t0\t1\t2\t3\t1\t1\t0\t2\t2\nC\t2\t4\t9\t0\t0\t0\t10\t0\t1\t0\t0\t3\t3\t1\t1\t0\t7\t1\t2\t0\t2\t0\t1\nG\t4\t0\t1\t1\t1\t0\t0\t6\t1\t0\t0\t0\t3\t1\t0\t0\t0\t3\t1\t1\t0\t3\t5\nT\t0\t2\t0\t10\t10\t11\t1\t2\t7\t11\t10\t6\t0\t9\t10\t10\t2\t4\t7\t9\t9\t6\t3>site_0\nAACTTTCGTTTCATTTCGTTTTG\n>site_1\nGCCTTTCTTTTTCTTTCGTTTTG\n>site_2\nGCCTTTCGTTTCATTTCACTTGG\n>site_3\nAAATTTCGTTTTATTTCTTTTTT\n>site_4\nATCTTTCGTTTTGTTTCAGTTGA\n>site_5\nGACTTTCATTATGTTTCTTTTGT\n>site_6\nATCTTTCGTTTTATTTTTATCTC\n>site_7\nAACTTTCAGTTTCTTTTCTATAG\n>site_8\nCCCTTTTGCTTCCTTTATCTTTT\n>site_9\nCAGGGTCAATTAGCTTCGTTTTG\n>site_10\nGCCTTTCTATTAAGCAAATGCAA\nmatrix-quality  -v 1 -ms /home/cjgonzal/data/Matrices_NR/AgaR/AgaR.EcolK12_1nt_upstream.23.meme -matrix_format meme -seq allup-noorf /home/cjgonzal/data/sequences/allup/Escherichia_coli_K12_allup-noorf_min30_max500.fasta -perm allup-noorf 10 -roc_ref theor -img_format png,pdf -graph_option '-title1 AgaR' -graph_option '-xgstep1 5 -xgstep2 1' -graph_option '-ymin 1.0e-7 -ymax 1' -graph_option '-xmin -50 -xmax 30' -roc_option '-gstep1 0.1 -gstep2 0.05' -roc_option '-title1 AgaR' -2str -pseudo 1 -bgfile $RSAT/public_html/data/genomes/Escherichia_coli_GCF_000005845.2_ASM584v2/oligo-frequencies/1nt_upstream-noorf_Escherichia_coli_GCF_000005845.2_ASM584v2-ovlp-1str.freq.gz -th_prior $RSAT/public_html/data/genomes/Escherichia_coli_GCF_000005845.2_ASM584v2/oligo-frequencies/1nt_upstream-noorf_Escherichia_coli_GCF_000005845.2_ASM584v2-ovlp-1str.freq.gz -o /home/cjgonzal/results/manual/matrix_quality_20190329/AgaR/AgaR.EcolK12_1nt_upstream.23.meme/AgaR.EcolK12_1nt_upstream.23.meme_quality"
+            },
+            "logoPath": "",
+            "htmlFilePath": "/home/ana/html/AgaR/AgaR.EcolK12_1nt_upstream.23.meme/RMCTTTCRTTTYVTTTCDTTTKK/AgaR.EcolK12_1nt_upstream.23.meme_quality_synthesis.html",
+            "citations": [
+                {
+                    "publications_id": "",
+                    "evidences_id": ""
+                }
+            ],
+            "notes": ""
+        }
+    ]
+}
